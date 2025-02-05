@@ -17,5 +17,10 @@ public class Main {
         Car.incrementTotalCount();
         System.out.println(car3);
 
+
+        System.out.println(Calculator.add(55.88, 66.22));
+        System.out.println(Calculator.subtraction(155.88, 66.22));
+        System.out.println(Calculator.multiplication(55.88, 4));
+        System.out.println(Calculator.division(1155.88, 56.22));
     }
 }
